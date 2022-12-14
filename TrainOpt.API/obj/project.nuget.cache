@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Pb6mgkUTUN09PAApDcaDwMa2ObZGWnTJ0diL+L5iN/8MzNNDA7lRR2fc5BiVVqPYv+mhavbuP0BXbCUk9us3gQ==",
+  "dgSpecHash": "cGIR51PwiFtLrflvtXodXNlW1c4hszIZbRuMbBgoN8EfzD5YGZUvCb9ETmQ6SJMOF/ykUtVhMcdyELKF4nLC9w==",
   "success": true,
-  "projectFilePath": "D:\\Programmering\\Projects\\TrainOpt\\TrainOpt.API\\TrainOpt.API.csproj",
+  "projectFilePath": "D:\\Programmering\\Projects\\TrainOpt\\TrainOpt\\TrainOpt.API\\TrainOpt.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rhods\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\rhods\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

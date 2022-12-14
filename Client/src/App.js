@@ -1,37 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
-import React, { useEffect, useState } from 'react';
+
+import {Route, Routes} from 'react-router-dom';
+import Home from './Components/Home/Home';
 
 
 function App() {
 
-  const [weatherData, setWeatherData] = useState([]);
-
-  useEffect(() => {
-    const getData = async () => {
-      const response = await fetch("https://localhost:7080/api/WeatherForecast");
-      const weatherResults = await response.json();
-      setWeatherData(weatherResults);
-    }
-    getData();
-
-  }, []);
 
 
   return (
     <div className="App">
-      <h1>there are {weatherData.length} reports</h1>
-      <div >
-      {weatherData.map(w => 
-        <>
-        <li className='WeatherContainer'>{w.summary} {w.temperatureF} Farenheit {w.temperatureC} Celcius</li>
-        </>
-      )}
-    
+      <Routes>
 
-      </div>
+        <Route path='/' element={<Home />}></Route>
+        <Route path='/Home' element={<Home />}></Route>
 
-
+  
+        </Routes>
     </div>
   );
 }
