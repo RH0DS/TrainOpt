@@ -1,0 +1,23 @@
+
+
+  .navbar {
+height: 60px;
+padding-top: 10px;
+border-bottom: 2px solid black;
+
+  }
+
+  .header-container {
+    display: flex;
+    justify-content:space-around;
+    align-items: flex-end;
+    
+   
+  }
+  .logo{
+color: #47601b;
+font-weight:bold;
+ }
+ .header-container a{
+  text-decoration: none;
+ }

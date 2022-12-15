@@ -1,3 +1,4 @@
+import './Home.css';
 import { Link, useNavigate } from "react-router-dom";
 import React, { useEffect, useState } from 'react';
 import Header from '../Header/Header';
@@ -21,13 +22,15 @@ function Home(props) {
 
 
   return (    
+    
     <div className="home-container">
       <Header/>
-
+      <div className="container">
 
       <h1>there are {weatherData.length} reports</h1>
       
-      
+      <h2>The Home screen</h2>
+    
       <div >
         <ul>
               {weatherData.map(w => 
@@ -36,14 +39,11 @@ function Home(props) {
         </ul>
       </div>
 
-
-
-      
-      <div className="container">
+      </div>
         <section className="welcome-text">
           <p >Get to your personal goals your way</p>
         </section>
-      </div>
+   
       <Link to="/">
         <button className="btn-get-started"> Get Started!</button>
       </Link>
